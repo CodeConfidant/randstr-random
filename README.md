@@ -53,6 +53,22 @@
                 "ads" - (Alphabet Lower | Alphabet Upper | Digit | Special) Random lowercase & uppercase alphabet letters. Random digits 0-9. Random special characters.
         </td>
 	</tr>
+    <tr>
+		<td>
+            <code>isspec(arg)</code>
+        </td>
+		<td>
+            Return true if all characters in arg string are special characters.
+        </td>
+	</tr>
+    <tr>
+		<td>
+            <code>isads(arg)</code>
+        </td>
+		<td>
+            Return true if all characters in arg string are either upper/lower case alphabet, decimal or special characters.
+        </td>
+	</tr>
 </table>
 
 [Back to Top](#randstr)
