@@ -78,3 +78,29 @@ def randstr(string_length, seed_type):
 
     randstring = randstring.join(string_contents)
     return randstring
+
+# Return true if all characters in arg string are special characters.
+def isspec(arg):
+    if (type(arg) is not str):
+        raise TypeError("The arg argument isn't a string!")
+        
+    spec_digits = str("@%+'!#$^?:,(){}[]~-_.")
+
+    for digit in arg:
+        if not (digit in spec_digits):
+            return False
+
+    return True
+
+# Return true if all characters in arg string are either upper/lower alphabet, decimal or special characters.
+def isads(arg):
+    if (type(arg) is not str):
+        raise TypeError("The arg argument isn't a string!")
+        
+    ads_digits = str("@%+'!#$^?:,(){}[]~-_.0123456789abcdefghijklmnopqrstuvwyxz")
+
+    for digit in arg.lower():
+        if not (digit in ads_digits):
+            return False
+
+    return True
