@@ -7,7 +7,7 @@ setup(
     license='MIT',
     description='A Small Python package for generating strings with random characters built on top of the random module.',
     long_description=open('README.md').read(),
-    install_requires=['random'],
+    # install_requires=[''],
     url='https://github.com/CodeConfidant/randstr-random',
     author='Drew Hainer',
     author_email='codeconfidant@gmail.com'
