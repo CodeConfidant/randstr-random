@@ -2,9 +2,9 @@
 
 import sys, os
 
-sys.path.append(os.path.abspath("randstr"))
+sys.path.append(os.path.abspath("../randstr-random"))
 
-import rs
+import randstr as rs
 
 # Various tests that randstr(string_length, seed_type) method should pass with the 'al' seed_type value. 
 def test_al(randstr):
