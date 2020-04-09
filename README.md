@@ -2,7 +2,7 @@
 
     A Small Python module for generating strings with random characters built on top of the random module.
 
-    Make sure to have the latest version of Python 3 installed although this should work with previous Python 3 versions. 
+    Make sure to have the latest version of Python 3 installed although this should work with previous versions. 
     Pip and git also need to be installed for module installation with command line.  
 
     To install/update the module with pip enter command in terminal:
