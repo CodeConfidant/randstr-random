@@ -11,8 +11,6 @@ To install/update the module with pip enter command in terminal:
 To uninstall the module with pip enter command in terminal:
     pip uninstall randstr
 
-Module randstr
-
 Method 	                            Description
 randdigit() 	                    Generates a random digit ranging from 0 to 9 (Digits in Decimal Number System) and returns it as a string.
 

@@ -11,8 +11,6 @@
     To uninstall the module with pip enter command in terminal:
         pip uninstall randstr
 
-## ***Module randstr***
-
 <table width="100%">
 	<tr>
 		<th align="left">
