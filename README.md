@@ -1,15 +1,14 @@
-# ***randstr***
+# ***randstr-random***
 
-    A Small Python module for generating strings with random characters built on top of the random module.
+    A Python package for generating strings with random characters built on top of the random module.
 
     Make sure to have the latest version of Python 3 installed although this should work with previous versions. 
-    Pip and git also need to be installed for module installation with command line.  
 
-    To install/update the module with pip enter command in terminal:
-        pip install git+https://github.com/CodeConfidant/randstr-random.git#egg=randstr-random
+    To install the package with pip enter command in terminal:
+        pip install randstr-random
 
-    To uninstall the module with pip enter command in terminal:
-        pip uninstall randstr
+    To uninstall the package with pip enter command in terminal:
+        pip uninstall randstr-random
 
 <table width="100%">
 	<tr>
@@ -78,6 +77,6 @@
 	</tr>
 </table>
 
-[Back to Top](#randstr)
+[Back to Top](#randstr-random)
 
 ---

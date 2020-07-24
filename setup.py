@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
+# Setup python package - python setup.py sdist
 
 from setuptools import setup
 
 setup(
-    name='randstr',
-    version='0.1',
+    name='randstr-random',
+    version='1.0',
     py_modules=['randstr'],
     license='MIT',
-    description='A Small Python module for generating strings with random characters built on top of the random module.',
+    description='A Python package module for generating strings with random characters built on top of the random module.',
     long_description=open('README.txt').read(),
+    long_description_content_type='text/markdown',
     url='https://github.com/CodeConfidant/randstr-random',
     author='Drew Hainer',
-    author_email='codeconfidant@gmail.com'
+    author_email='codeconfidant@gmail.com',
+    platforms=['Windows', 'Linux']
 )
