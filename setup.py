@@ -5,10 +5,10 @@ from setuptools import setup
 
 setup(
     name='randstr-random',
-    version='1.0',
+    version='1.1',
     py_modules=['randstr'],
     license='MIT',
-    description='A Python package module for generating strings with random characters built on top of the random module.',
+    description='A Python package for generating strings with random characters built on top of the random module.',
     long_description=open('README.txt').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/CodeConfidant/randstr-random',

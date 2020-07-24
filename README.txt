@@ -18,13 +18,20 @@ randalpha(): 	                    Generates a random lowercase letter from the e
 randspec(): 	                    Generates a random special character and returns it as a string.
 
 randstr(string_length, seed_type): 	Return a string with random values of designated int length (Cap of 10000). The random value combos are selected by using a specific string for the seed_type argument.
-                                    The seed_type argument value options (not case sensitive) are as follows:
-                                        "al" - (Alphabet Lower) Random lowercase alphabet letters.
-                                        "au" - (Alphabet Upper) Random uppercase alphabet letters.
-                                        "dig" - (Digit) Random digits 0-9.
-                                        "spec" - (Special) Random special characters.
-                                        "ad" - (Alphabet Lower | Alphabet Upper | Digit) Random lowercase & uppercase alphabet letters. Random digits 0-9.
-                                        "ads" - (Alphabet Lower | Alphabet Upper | Digit | Special) Random lowercase & uppercase alphabet letters. Random digits 0-9. Random special characters.
+
+The seed_type argument value options (not case sensitive) are as follows:
+
+"al" - (Alphabet Lower) Random lowercase alphabet letters.
+
+"au" - (Alphabet Upper) Random uppercase alphabet letters.
+
+"dig" - (Digit) Random digits 0-9.
+
+"spec" - (Special) Random special characters.
+
+"ad" - (Alphabet Lower | Alphabet Upper | Digit) Random lowercase & uppercase alphabet letters. Random digits 0-9.
+
+"ads" - (Alphabet Lower | Alphabet Upper | Digit | Special) Random lowercase & uppercase alphabet letters. Random digits 0-9. Random special characters.
 
 isspec(arg): 	                    Return true if all characters in arg string are special characters.
 
