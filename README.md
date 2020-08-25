@@ -45,14 +45,14 @@
 	</tr>
     <tr>
 		<td>
-            <code>randstr(string_length, seed_type)</code>
+            <code>generate(string_length, seed_type)</code>
         </td>
 		<td>
             Return a string with random values of designated int length (Cap of 10000).
             The random value combos are selected by using a specific string for the seed_type argument. <br/>
             The seed_type argument value options (not case sensitive) are as follows: <br/>
                 "al" - (Alphabet Lower) Random lowercase alphabet letters. <br/>
-                "au" - (Alphabet Upper) Random uppercase alphabet letters. <br/>    
+                "au" - (Alphabet Upper) Random uppercase alphabet letters. <br/>
                 "dig" - (Digit) Random digits 0-9. <br/>
                 "spec" - (Special) Random special characters. <br/>
                 "ad" - (Alphabet Lower | Alphabet Upper | Digit) Random lowercase & uppercase alphabet letters. Random digits 0-9. <br/>

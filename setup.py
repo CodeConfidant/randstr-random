@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='randstr-random',
-    version='1.1',
+    version='1.1.1',
     py_modules=['randstr'],
     license='MIT',
     description='A Python package for generating strings with random characters built on top of the random module.',

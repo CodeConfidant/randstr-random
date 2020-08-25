@@ -29,7 +29,7 @@ def randspec():
     
 '''
 
-def randstr(string_length, seed_type):
+def generate(string_length, seed_type):
     if (type(string_length) is not int):
         raise TypeError("The string_length argument must be an int!")
         
