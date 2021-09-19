@@ -1,6 +1,6 @@
 # ***randstr-random***
 
-    A Python package for generating strings with random characters built on top of the random module.
+    Python package for generating strings with random characters.
 
     Make sure to have the latest version of Python 3 installed although this should work with previous versions. 
 
