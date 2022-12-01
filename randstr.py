@@ -42,7 +42,9 @@ def generate(string_length, seed_type):
     if (type(seed_type) is not str):
         raise TypeError("The seed_type argument isn't a string!")
 
-    if (seed_type.lower() != "al" and seed_type.lower() != "au" and seed_type.lower() != "dig" and seed_type.lower() != "spec" and seed_type.lower() != "ad" and seed_type.lower() != "ads"):
+    seed_type = seed_type.lower()
+
+    if (seed_type != "al" and seed_type != "au" and seed_type != "dig" and seed_type != "spec" and seed_type != "ad" and seed_type != "ads"):
         raise ValueError("The seed_type argument must one of the following strings - 'al', 'au', 'dig', 'spec', 'ad', 'ads' ")
         
     randstring = str("")

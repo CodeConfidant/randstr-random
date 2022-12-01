@@ -5,7 +5,7 @@ from pathlib import Path
 
 setup(
     name='randstr-random',
-    version='1.1.2',
+    version='1.1.3',
     py_modules=['randstr'],
     license='MIT',
     description='Python package for generating strings with random characters.',
